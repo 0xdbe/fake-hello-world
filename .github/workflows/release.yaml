@@ -36,3 +36,5 @@ jobs:
         uses: denoland/setup-deno@v1
         with:
           deno-version: v1.x
+      - name: publish
+        run: deno publish
